@@ -1,0 +1,1 @@
+Nick,Haslo,Punkty
