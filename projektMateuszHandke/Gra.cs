@@ -69,7 +69,7 @@ namespace projektMateuszHandke
             Console.WriteLine("Za zatopienie statku otrzymasz dodatkowo liczbę punktów odpowiadajacą długości zatopionego statku.");
             Console.WriteLine("Statki mogą być ułożone poziomo lub pionowo, tak jak na przykładowej planszy poniżej.");
             Console.WriteLine("Ich współrzędne to kolejno nr wiersza i kolumny. Przykładowo współrzędne statku o długości 3 na przykładowej planszy to 23, 24 i 25.");
-            Console.WriteLine("Masz 30 prób, jednak gdy trafisz '+' lub wpiszesz zły punkt, próba nie jest Ci zabierana. Za niewykorzystane próby otrzymasz dodatkowe punkty.");
+            Console.WriteLine("Masz 25 prób, jednak gdy trafisz '+' lub wpiszesz zły punkt, próba nie jest Ci zabierana. Za niewykorzystane próby otrzymasz dodatkowe punkty.");
             Console.WriteLine("Powodzenia!");
             Console.WriteLine();
 
@@ -123,7 +123,7 @@ namespace projektMateuszHandke
         public void graStart()
         {
             int punkty = 0;
-            int iloscProb = 30;
+            int iloscProb = 25;
             int kontrolna1 = 0;
             int kontrolna2 = 0;
             int kontrolna3 = 0;
